@@ -18,9 +18,9 @@ class AjaxfulRatingGenerator < Rails::Generators::NamedBase
   end
 
   def create_layout
-    copy_file 'images/star.png', 'assets/images/ajaxful_rating/star.png'
-    copy_file 'images/star_small.png', 'assets/images/ajaxful_rating/star_small.png'
-    copy_file 'style.css', 'assets/stylesheets/ajaxful_rating.css.scss'
+    copy_file 'images/star.png', 'app/assets/images/ajaxful_rating/star.png'
+    copy_file 'images/star_small.png', 'app/assets/images/ajaxful_rating/star_small.png'
+    copy_file 'style.css', 'app/assets/stylesheets/ajaxful_rating.css.scss'
   end
 
   private
